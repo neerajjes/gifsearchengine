@@ -19,18 +19,20 @@
     height: 240px;
     display: block;
     float: left;
-    margin-right: 5px;
-    margin-bottom: 5px;
+    margin-left: 15%;
     }
   
   /* search bar & footer */
   body {
     background-image: linear-gradient(to right , #00F260 ,#0575E6);
   }
+  .result-count {
+    display: none;
+  }
   
   .searchBox {
-    
-    top: 60%;
+    position: relative;
+    top: 50%;
     bottom: 50%;
     left: 50%;
     transform:  translate(-50%,50%);
@@ -39,7 +41,10 @@
     border-radius: 40px;
     padding: 10px;
   }
-
+  .searchBox > .searchInput {
+    width: 240px;
+    padding: 0 6px;
+  }
   footer.clearfix {
     float: left;
     color: black;
