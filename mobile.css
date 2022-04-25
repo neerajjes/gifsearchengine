@@ -15,12 +15,11 @@
 
   }
    .container-image {
-    width: 240px;
-    height: 240px;
+    width: 90%;
     display: block;
-    float: left;
-    margin-left: 15%;
-    }
+    margin: 10px;
+    padding: 5px;
+  }
   
   /* search bar & footer */
   body {
@@ -32,9 +31,6 @@
   
   .searchBox {
     position: relative;
-    top: 50%;
-    bottom: 50%;
-    left: 50%;
     transform:  translate(-50%,50%);
     background: black;
     height: 40px;
