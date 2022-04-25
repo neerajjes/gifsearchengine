@@ -1,0 +1,134 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.logo {
+  text-align: center;
+}
+
+.initial-gif {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  width: 360px;
+}
+
+body {
+  width: 85%;
+  max-width: 1024px;
+  margin: 0 auto;
+  background: black;
+}
+  h1 {
+    font-family: 'Titillium Web', sans-serif;
+    color: #dbdbdb;
+    font-size: 34px;
+    text-align: center;
+    }
+  h2{
+    font-family: 'Titillium Web', sans-serif;
+    color: #dbdbdb;
+    font-size: 26px;
+    text-align: center;
+  }
+
+  .container-padding50 {
+  padding-top: 50px;
+  }
+
+  .container-textinput {
+  /* width: 80%; */
+  display: inline-block;
+  /* padding: 20px; */
+  font-size: 16px;
+  font-family: Helvetica, sans-serif;
+  }
+
+  .container-image {
+  width: 240px;
+  height: 240px;
+  display: inline;
+  float: left;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  }
+
+  .result-count {
+  font-size: 16px;
+  margin-top: 40px;
+}
+/* search bar & */
+body {
+  background-image: linear-gradient(to right , #00F260 ,#0575E6);
+}
+
+.searchBox {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform:  translate(-50%,50%);
+  background: black;
+  height: 40px;
+  border-radius: 40px;
+  padding: 10px;
+}
+
+
+.searchBox:hover > .searchInput {
+  width: 240px;
+  padding: 0 6px;
+}
+
+.searchBox:hover > .searchButton {
+background: black;
+color : #dbdbdb;
+font-size: 12px;
+}
+
+.searchButton {
+  color: #dbdbdb;
+  float: right;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+}
+
+.searchInput {
+  border:none;
+  background: none;
+  outline:none;
+  float:left;
+  padding: 0;
+  color: #dbdbdb;
+  font-size: 16px;
+  transition: 0.4s;
+  line-height: 40px;
+  width: 0px;
+
+}
+
+@media screen and (max-width: 620px) {
+.searchBox:hover > .searchInput {
+  width: 150px;
+  padding: 0 6px;
+}
+}
+footer.clearfix {
+  float: left;
+  color: black;
+  margin-left: 25rem;
+}
+a {
+  color: azure;
+}
